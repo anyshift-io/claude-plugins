@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "anyshift",
+  "description": "Public Claude Code plugins maintained by Anyshift: skills for the Annie CLI and the Anyshift MCP server, plus future SRE methodology skills.",
+  "owner": {
+    "name": "Anyshift",
+    "email": "hello@anyshift.io"
+  },
+  "plugins": [
+    {
+      "name": "annie-skills",
+      "displayName": "Annie Skills",
+      "source": {
+        "source": "github",
+        "repo": "anyshift-io/annie-skills"
+      },
+      "description": "Teaches an agent how to drive the Annie CLI and the Anyshift MCP server: install + auth, the 5 read-only tools (get_resource_graph, get_recent_changes, get_dependents, get_blast_radius, get_temporal_diff), worked examples, and failure modes.",
+      "homepage": "https://github.com/anyshift-io/annie-skills",
+      "repository": "https://github.com/anyshift-io/annie-skills",
+      "license": "Apache-2.0",
+      "category": "sre",
+      "keywords": [
+        "annie",
+        "anyshift",
+        "sre",
+        "mcp",
+        "ai-agents",
+        "site-reliability-engineering"
+      ],
+      "author": {
+        "name": "Anyshift",
+        "email": "hello@anyshift.io"
+      }
+    }
+  ]
+}

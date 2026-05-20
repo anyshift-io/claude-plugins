@@ -14,7 +14,7 @@
         "source": "github",
         "repo": "anyshift-io/annie-skills"
       },
-      "description": "Teaches an agent how to drive the Annie CLI and the Anyshift MCP server: install + auth, the 5 read-only tools (get_resource_graph, get_recent_changes, get_dependents, get_blast_radius, get_temporal_diff), worked examples, and failure modes.",
+      "description": "Teaches an agent how to call the Anyshift MCP server: the 5 read-only tools (catalog_resource_types, search_resources_by_term, track_infrastructure_changes, audit_resource_timeline, inspect_resource_details), worked examples, and failure modes. Also documents the Annie CLI chat client for human users.",
       "homepage": "https://github.com/anyshift-io/annie-skills",
       "repository": "https://github.com/anyshift-io/annie-skills",
       "license": "Apache-2.0",

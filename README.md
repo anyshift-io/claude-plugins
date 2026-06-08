@@ -34,6 +34,7 @@ To update later (after we ship a new plugin or a new version of an existing one)
 | Plugin | What it does | Source |
 |---|---|---|
 | `annie-skills` | Teaches the agent how to drive the Annie CLI and the Anyshift MCP server: install + auth, the 5 read-only tools (`get_resource_graph`, `get_recent_changes`, `get_dependents`, `get_blast_radius`, `get_temporal_diff`), worked examples, failure modes. | [`anyshift-io/annie-skills`](https://github.com/anyshift-io/annie-skills) |
+| `sre-skills` | Vendor-neutral SRE methodology skills: investigate a live incident, analyze change impact, hand over oncall, author a postmortem, audit reliability. Runs offline against fixtures, no credentials required. | [`anyshift-io/sre-skills`](https://github.com/anyshift-io/sre-skills) |
 
 More plugins ship here as they land. See the [`plugins` array in `.claude-plugin/marketplace.json`](./.claude-plugin/marketplace.json) for the canonical list.
 
